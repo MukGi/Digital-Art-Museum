@@ -1,0 +1,59 @@
+@font-face {
+    font-family: titlefont;
+    src: url(ricksamericannf/RicksAmericanNF.ttf);
+}
+
+@font-face {
+    font-family: sub_title_font;
+    src: url(antipasto/AntipastoPro-Bold_trial.ttf);
+}
+@font-face {
+    font-family: parafont;
+    src: url(antipasto/AntipastoPro-Medium_trial.ttf);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.title-design{ /*title design*/
+    font-family: titlefont;
+    text-align: center;
+    background-color: rgb(133, 146, 157);
+    border-bottom: solid black;
+    border-top: solid rgb(253, 253, 253);
+    font-size: 50px;
+}
+
+h2{
+    font-family: sub_title_font;
+    text-align: left;
+    color: rgb(6, 1, 86);
+    font-size: 34px;
+    margin-bottom: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+
+.imgP{ /*Image Portrait style*/
+    width: 300px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 7px rgb(160, 160, 167);
+}
+
+.imgLS{ /*Image Landscape Style*/
+    width: 400px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 7px rgb(160, 160, 167);
+}
+
+p{ /*paragraph style*/
+    font-family: parafont;
+    font-size: 30px;
+    width: 900px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+
+}
